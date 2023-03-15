@@ -1,5 +1,12 @@
+import styled from "@emotion/styled";
+
+const Main = styled.main`
+  background-color: pink;
+  padding: 2rem;
+`;
+
 function HomePage() {
-  return <div>Welcome to the home page!</div>;
+  return <Main>Welcome to the home page!</Main>;
 }
 
 export default HomePage;
